@@ -1,0 +1,26 @@
+projetoCofreOne/
++-- config/
+|   +-- database.js
+|   +-- auth.js
+|   +-- server.js
+|   +-- storage.js
++-- src/
+|   +-- controllers/
+|   +-- services/       # Nova pasta para lógica de negócios
+|   +-- models/
+|   +-- routes/
+|   +-- middlewares/
+|   +-- utils/
+|   +-- jobs/          # Para tarefas agendadas
+|   +-- subscribers/   # Para event handlers
++-- tests/
+|   +-- unit/
+|   +-- integration/
+|   +-- fixtures/
++-- docs/
+|   +-- API.md
+|   +-- ARCHITECTURE.md
++-- scripts/           # Scripts utilitários
++-- app.js
++-- package.json
++-- README.md
